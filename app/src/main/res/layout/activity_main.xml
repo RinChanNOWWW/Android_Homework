@@ -7,6 +7,7 @@
     tools:context=".MainActivity">
 
     <TextView
+        android:id="@+id/text_view"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Hello World!"
@@ -14,5 +15,61 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/ask_button"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/hello_button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_view" />
+
+    <RadioGroup
+        android:id="@+id/radio_group"
+        android:layout_width="211dp"
+        android:layout_height="66dp"
+        app:layout_constraintBottom_toTopOf="@+id/ask_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_view">
+
+        <RadioButton
+            android:id="@+id/ask_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ask_name" />
+
+        <RadioButton
+            android:id="@+id/ask_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ask_id_number" />
+    </RadioGroup>
+
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_width="118dp"
+        android:layout_height="126dp"
+        android:contentDescription="@string/kano"
+        app:layout_constraintBottom_toTopOf="@+id/text_view"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/kano_without_mask" />
+
+    <Switch
+        android:id="@+id/wear_mask"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/wear_mask"
+        app:layout_constraintBottom_toTopOf="@+id/text_view"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/icon"
+        app:layout_constraintVertical_bias="0.147" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

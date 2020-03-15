@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Homework One</string>
+    <string name="hello_button">Ask</string>
+    <string name="ask_name">Who am I?</string>
+    <string name="ask_id_number">What is my BUPT id?</string>
+    <string name="wear_mask">Wear Mask</string>
+    <string name="kano">Kano</string>
 </resources>
