@@ -7,3 +7,5 @@
 
 我使用了 ImageView, Switch, TextView, RadioGroup, RadioButton, Button。
 
+可以到 release 直接下载 apk
+
