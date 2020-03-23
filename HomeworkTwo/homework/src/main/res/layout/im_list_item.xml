@@ -23,13 +23,14 @@
             android:layout_width="48dp"
             android:layout_height="48dp"
 
+            android:background="@color/colorBackground"
             android:scaleType="centerCrop"
             android:src="@drawable/icon_girl" />
 
         <ImageView
             android:id="@+id/robot_notice"
             style="@style/IMVerifyBdage"
-            tools:visibility="visible" />
+            android:visibility="visible" />
     </FrameLayout>
 
 
@@ -41,7 +42,7 @@
         android:layout_toRightOf="@id/iv_avatar_header"
         android:textColor="#ffffff"
         android:textSize="15sp"
-        tools:text="AABBCC" />
+        android:text="AABBCC" />
 
     <TextView
         android:id="@+id/tv_description"
@@ -53,7 +54,7 @@
         android:singleLine="true"
         android:textColor="#4cffffff"
         android:textSize="14sp"
-        tools:text="123321123" />
+        android:text="123321123" />
 
     <TextView
         android:id="@+id/tv_time"
@@ -62,5 +63,5 @@
         android:layout_alignParentRight="true"
         android:textColor="#4cffffff"
         android:textSize="12sp"
-        tools:text="5分钟前" />
+        android:text="5分钟前" />
 </RelativeLayout>

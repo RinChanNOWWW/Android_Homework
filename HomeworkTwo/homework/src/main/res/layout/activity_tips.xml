@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:background="@color/colorBackground">
+    android:background="@color/colorBackground">
 
     <RelativeLayout
         android:id="@+id/header"
@@ -17,8 +17,8 @@
             android:layout_height="wrap_content"
             android:layout_centerInParent="true"
             android:fontFamily="sans-serif"
-            android:text="消息"
-            android:textColor="#ffffff"
+            android:text="@string/list_header"
+            android:textColor="#FFFFFF"
             android:textSize="18sp" />
     </RelativeLayout>
 
