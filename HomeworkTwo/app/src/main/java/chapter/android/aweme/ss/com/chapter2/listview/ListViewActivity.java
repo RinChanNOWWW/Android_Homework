@@ -8,7 +8,7 @@ import android.widget.AdapterView;
 import android.widget.ListView;
 import android.widget.Toast;
 
-import chapter.android.aweme.ss.com.chapter1.R;
+import chapter.android.aweme.ss.com.chapter2.R;
 
 public class ListViewActivity extends AppCompatActivity {
     private Toast mToast;

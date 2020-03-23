@@ -12,7 +12,7 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import chapter.android.aweme.ss.com.chapter1.R;
+import chapter.android.aweme.ss.com.chapter2.R;
 
 public class CommonViewActivity extends AppCompatActivity implements View.OnClickListener {
 

@@ -9,7 +9,7 @@ import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import chapter.android.aweme.ss.com.chapter1.R;
+import chapter.android.aweme.ss.com.chapter2.R;
 
 public class TouchEventActivity extends AppCompatActivity {
 

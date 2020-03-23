@@ -12,7 +12,7 @@ import android.widget.TextView;
 
 import java.io.Serializable;
 
-import chapter.android.aweme.ss.com.chapter1.R;
+import chapter.android.aweme.ss.com.chapter2.R;
 
 public class AuthorizeActivity extends AppCompatActivity {
 

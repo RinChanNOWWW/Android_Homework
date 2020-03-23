@@ -5,7 +5,7 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
-import chapter.android.aweme.ss.com.chapter1.R;
+import chapter.android.aweme.ss.com.chapter2.R;
 import chapter.android.aweme.ss.com.chapter2.intent.IntentActivity;
 import chapter.android.aweme.ss.com.chapter2.lifecycle.LifeCycleActivity;
 import chapter.android.aweme.ss.com.chapter2.listview.ListViewActivity;

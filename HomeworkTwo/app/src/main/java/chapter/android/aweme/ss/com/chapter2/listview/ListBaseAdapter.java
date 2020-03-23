@@ -5,7 +5,7 @@ import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.TextView;
 
-import chapter.android.aweme.ss.com.chapter1.R;
+import chapter.android.aweme.ss.com.chapter2.R;
 import chapter.android.aweme.ss.com.chapter2.recycleview.ColorUtils;
 
 public class ListBaseAdapter extends BaseAdapter {
