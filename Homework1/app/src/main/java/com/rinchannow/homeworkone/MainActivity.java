@@ -31,10 +31,10 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 // 根据选了哪个 Radio Button 来设置不同的文本
                 if (ask_name.isChecked()) {
-                    test_view.setText("I am 何哲宇");
+                    test_view.setText("I am RinChanNOW!");
                     Log.d("MainActivity", "Print name");
                 } else if (ask_id.isChecked()) {
-                    test_view.setText("My id is 2017211613");
+                    test_view.setText("My id is 2017211***");
                     Log.d("MainActivity", "Print id");
                 }
             }
