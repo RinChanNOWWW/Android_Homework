@@ -21,8 +21,7 @@
         <activity android:name=".Exercises1" />
         <activity android:name=".Exercises2" />
         <activity android:name=".Exercises3" android:theme="@style/Theme.AppCompat.NoActionBar"/>
-<!--        <activity android:name=".tips.SessionActivity" android:theme="@style/Theme.AppCompat.NoActionBar"/>-->
-<!--        <activity android:name=".tips.ChatRoomActivity" android:theme="@style/Theme.AppCompat.NoActionBar"/>-->
+        <activity android:name=".ChatRoomActivity" android:theme="@style/Theme.AppCompat.NoActionBar"/>
     </application>
 
 </manifest>

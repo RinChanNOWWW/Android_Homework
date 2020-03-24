@@ -65,7 +65,7 @@
             android:padding="10dp"
             android:scrollbars="vertical"
             android:textAlignment="viewStart"
-            android:textColor="#4cffffff"
+            android:textColor="#ffffffff"
             android:textColorHint="#4cffffff"
             android:textCursorDrawable="@drawable/im_edit_cursor"
             android:textSize="15sp" />

@@ -1,19 +1,4 @@
-# 移动互联网技术及应用 Android 开发
-
-
-## 目录
-
-* [2020/3/16 作业一](#2020316-作业一) | [源码](Homework1/) | [README](Homework1/README.md)
-* [2020/3/23 作业二](#2020323-作业二) | [源码](Homework2/) | [README](Homework2/README.md)
-
-## 2020/3/16 作业一
-
-1. 使用至少五种视图控件。
-2. 实现简单交互。
-
-	**解题过程**：我使用了 `ImageView`, `Switch`, `TextView`, `RadioGroup`, `RadioButton`, `Button`。
-
-## 2020/3/23 作业二
+# 2020/3/23 作业二
 
 1. Logcat在屏幕旋转的时候 `onStop()` 和 `onDestroy()` 会展示出来，但UI界面我们看不到，在今天课程基础上想办法补全它，让其跟 Logcat 的展示一样。
 

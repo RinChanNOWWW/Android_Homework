@@ -1,5 +1,6 @@
 package chapter.android.aweme.ss.com.homework;
 
+import android.content.Intent;
 import android.nfc.Tag;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
@@ -118,13 +119,17 @@ public class Exercises3 extends AppCompatActivity implements MyAdapter.ListItemC
             mToast.cancel();
         }
 
-        RelativeLayout layout = (RelativeLayout) layoutManager.findViewByPosition(clickedItemIndex);
-        TextView title = layout.findViewById(R.id.tv_title);
+//        RelativeLayout layout = (RelativeLayout) layoutManager.findViewByPosition(clickedItemIndex);
+//        TextView title = layout.findViewById(R.id.tv_title);
 //        String toastMessage = "Item #" + clickedItemIndex + " clicked.";
-        String toastMessage = "去和 " + title.getText().toString() + " 聊天";
+        String toastMessage = "去和 " + messages.get(clickedItemIndex).getTitle() + " 聊天";
         mToast = Toast.makeText(this, toastMessage, Toast.LENGTH_LONG);
-
         mToast.show();
+        Intent intent = new Intent(Exercises3.this, ChatRoomActivity.class);
+        intent.putExtra("title", messages.get(clickedItemIndex).getTitle());
+        intent.putExtra("description", messages.get(clickedItemIndex).getDescription());
+        startActivity(intent);
     }
 
 }
+
