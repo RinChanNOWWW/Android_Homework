@@ -2,13 +2,12 @@
 
 1. 引入 Lottie 库实现简单的图标动画
 
-   1. 在 activity_main.xml 中添加 `LottieAnimationView`
-2. 在 `SeekBar` 的回调中修改 `LottieAnimationView` 的进度
-   
+   1. 在 activity_main.xml 中添加 `LottieAnimationView`。
+   2. 在 `SeekBar` 的回调中修改 `LottieAnimationView` 的进度。
 
+**值得注意的点**：`SeekBar` 和 动画的进度（Progress）要同步。
 
-
-​	**演示效果**
+**演示效果**
 
 <div align=center><img src="pics/ex1.gif"  width=300 /></div>
 
@@ -19,6 +18,10 @@
    2. 添加 `alpha` 动画
 
    3. 组合到 `AnimatorSet` 中
+
+**演示效果**
+
+<div align=center><img src="pics/ex2.gif" /></div>
 
 2. 使用 `ViewPager` 和 `Fragment` 做一个简单版的好友列表界面
 

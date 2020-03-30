@@ -30,6 +30,8 @@ public class Ch3Ex1Activity extends AppCompatActivity {
                 if (isChecked) {
                     // 当选中自动播放的时候，开始播放 lottie 动画，同时禁止手动修改进度
                     animationView.playAnimation();
+                    // 从暂停时的进度开始
+                    animationView.setProgress(seekBar.getProgress() / 100.0f);
                     seekBar.setEnabled(false);
                 } else {
                     // 当去除自动播放时，停止播放 lottie 动画，同时允许手动修改进度
