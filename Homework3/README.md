@@ -20,7 +20,7 @@
 
 **演示效果**
 
-<div align=center><img src="pics/ex2.gif" /></div>
+<div align=center><img src="pics/ex2.gif"  width=300/></div>
 
 3. 使用 `ViewPager` 和 `Fragment` 做一个简单版的好友列表界面
    1. 使用 `ViewPager` 和 `Fragment` 做个可滑动界面

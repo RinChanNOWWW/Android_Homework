@@ -5,7 +5,7 @@
 
 * [2020/3/16 作业一](#2020316-作业一) | [源码](Homework1/) | [README](Homework1/README.md) | [apk](https://github.com/KagamineRinSuki/Android_Homework/releases/download/homework1_v2/Homework1.apk)
 * [2020/3/23 作业二](#2020323-作业二) | [源码](Homework2/) | [README](Homework2/README.md) | [apk](https://github.com/KagamineRinSuki/Android_Homework/releases/download/homework2_v1/Homework2.apk)
-* [2020/3/29 作业三](#2020329-作业三) | [源码](Homework3/) | [README](Homework3/README.md) | 
+* [2020/3/29 作业三](#2020329-作业三) | [源码](Homework3/) | [README](Homework3/README.md) | [apk](https://github.com/KagamineRinSuki/Android_Homework/releases/download/homework3_v1/Homework3.apk)
 
 ## 2020/3/16 作业一
 
