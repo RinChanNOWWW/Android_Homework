@@ -8,9 +8,14 @@
 	**演示效果**：
 	
 	我还添加了一个图标
-	![1](pics/1.png)
-	![2](pics/2.png)
-	![3](pics/3.png)
-	![4](pics/4.png)
-	![5](pics/5.png)
+	
+	<div align=center><img src="pics/1.png" width=300 /></div>
+	
+	<div align=center><img src="pics/2.png" width=300 /></div>
+	
+	<div align=center><img src="pics/3.png" width=300 /></div>
+	
+	<div align=center><img src="pics/4.png" width=300 /></div>
+	
+	<div align=center><img src="pics/5.png" width=300 /></div>
 	

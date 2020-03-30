@@ -7,13 +7,20 @@
 	**演示效果**：
 	
 	一开始的竖屏：
-	![1](pics/ex1_1.png)
+	
+	<div align=center><img src="pics/ex1_1.png" width=300 /></div>
+	
 	横屏之后：
-	![2](pics/ex1_2.png)
+	
+	<div align=center><img src="pics/ex1_2.png" width=300 /></div>
+	
 	再竖屏回来：
-	![3](pics/ex1_3.png)
+	
+	<div align=center><img src="pics/ex1_3.png" width=300 /></div>
+	
 	可见上述在 UI 界面显示的内容和 Logcat 中一致：
-	![4](pics/ex1_log.png)
+	
+	<div align=center><img src="pics/ex1_log.png" width=300 /></div>
 	
 2. 一个抖音笔试题：统计页面所有 view 的个数。ViewGroup 中的 API: `getChildCount()`, `getChildAt()`。
 
@@ -21,7 +28,8 @@
 	
 	**演示效果**：
 	我删除了两个组件，显示总共为 11：
-	![5](pics/ex2.png)
+	
+	<div align=center><img src="pics/ex2.png" width=300 /></div>
 
 3. 实现一个类似抖音消息页面，并且点击每个 `RecycleView` 的 item，能够跳转到一个新的界面，并且在新的页面显示出他是第几个 item。
 
@@ -31,9 +39,11 @@
 	
 	**演示效果**：
 	消息列表：简单起见没有去重，也没有按时间排序。
-	![6](pics/ex3_1.png)
+	
+	<div align=center><img src="pics/ex3_1.png" width=300 /></div>
+	
 	聊天界面：使用了可以拖动的 `ScrollView`。
-	![7](pics/ex3_2.png)
-	![8](pics/ex3_3.png)
 	
+	<div align=center><img src="pics/ex3_2.png" width=300 /></div>
 	
+	<div align=center><img src="pics/ex3_3.png" width=300 /></div>

@@ -10,7 +10,7 @@
 
 ​	**演示效果**
 
-<img src="pics/ex1.gif" style="zoom:33%;" />
+<div align=center><img src="pics/ex1.gif"  width=300 /></div>
 
 1. 使用属性动画，练习 `AnimatorSet` 和 `scale`/`fade` 等基本动画样式
 
