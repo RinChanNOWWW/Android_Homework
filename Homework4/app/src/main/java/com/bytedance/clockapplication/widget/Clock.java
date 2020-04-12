@@ -105,7 +105,8 @@ public class Clock extends View {
         drawHoursValues(canvas);
         drawNeedles(canvas);
 
-        // todo 每一秒刷新一次，让指针动起来
+        // 每一秒刷新一次，让指针动起来
+        postInvalidateDelayed(1000);
 
     }
 
@@ -166,7 +167,7 @@ public class Clock extends View {
         // 画秒针
         drawPointer(canvas, 2, nowSeconds);
         // 画分针
-        // todo 画分针
+        drawPointer(canvas, 1, nowMinutes);
         // 画时针
         int part = nowMinutes / 12;
         drawPointer(canvas, 0, 5 * nowHours + part);
@@ -188,8 +189,10 @@ public class Clock extends View {
                 pointerHeadXY = getPointerHeadXY(HOUR_POINTER_LENGTH, degree);
                 break;
             case 1:
-                // todo 画分针，设置分针的颜色
-
+                // 画分针，设置分针的颜色
+                degree = value * UNIT_DEGREE;
+                mNeedlePaint.setColor(Color.BLUE);
+                pointerHeadXY = getPointerHeadXY(MINUTE_POINTER_LENGTH, degree);
                 break;
             case 2:
                 degree = value * UNIT_DEGREE;
