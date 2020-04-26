@@ -10,6 +10,7 @@
 | [2020/3/29 作业三](#2020329-作业三) | [源码](Homework3/) | [README](Homework3/README.md) | [apk](https://github.com/KagamineRinSuki/Android_Homework/releases/download/homework3_v1/Homework3.apk) |
 | [2020/4/13 作业四](#2020413-作业四) | [源码](Homework4/) | [README](Homework4/README.md) | [apk](https://github.com/KagamineRinSuki/Android_Homework/releases/download/homework4_v1/Homework4.apk) |
 | [2020/4/20 作业五](#2020420-作业五) | [源码](Homework5/) | [README](Homework5/README.md) | [apk](https://github.com/KagamineRinSuki/Android_Homework/releases/download/homework5_v1/Homework5.apk)|
+| [2020/4/27 作业六](#2020427-作业六) | [源码](Homework6/) | [README](Homework6/README.md) | [apk](https://github.com/KagamineRinSuki/Android_Homework/releases/download/homework6_v1/Homework6.apk)|
 
 ## 2020/3/16 作业一
 
@@ -35,3 +36,5 @@
 
 ## 2020/4/20 作业五
 1. 使用 Retrofit 完成注册逻辑（todo 部分）
+
+## 2020/4/27 作业六

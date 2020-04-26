@@ -1,0 +1,25 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 控制Switch在不同状态下，底下下滑条的颜色 -->
+    <item android:state_checked="true">
+        <shape android:shape="rectangle">
+            <!-- 高度20 -->
+            <size android:height="10dp" />
+
+            <!-- 圆角弧度 10 -->
+            <corners android:radius="10dp" />
+
+            <!-- 变化率 -->
+            <gradient android:endColor="#33da33" android:startColor="#33da33" />
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="rectangle">
+            <!-- 高度  此处设置宽度无效-->
+            <size android:height="15dp" />
+            <!-- 圆角弧度 10 -->
+            <corners android:radius="10dp" />
+            <!-- 变化率 定义从左到右的颜色不变 -->
+            <gradient android:endColor="#9e9e9e" android:startColor="#9e9e9e" />
+        </shape>
+    </item>
+</selector>
