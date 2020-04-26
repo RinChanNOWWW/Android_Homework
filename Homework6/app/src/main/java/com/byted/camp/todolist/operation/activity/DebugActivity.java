@@ -67,7 +67,7 @@ public class DebugActivity extends AppCompatActivity {
         fileWriteBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                // TODO 把一段文本写入某个存储区的文件中，再读出来，显示在 fileText 上
+                // 把一段文本写入某个存储区的文件中，再读出来，显示在 fileText 上
                 new Thread(new Runnable() {
                     @Override
                     public void run() {

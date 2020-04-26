@@ -15,6 +15,27 @@
         android:gravity="start|top"
         android:padding="4dp"
         android:textColor="#1e1e1e" />
+    <RadioGroup
+        android:id="@+id/radio_group"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+        <android.support.v7.widget.AppCompatRadioButton
+            android:id="@+id/high"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="HIGH" />
+        <android.support.v7.widget.AppCompatRadioButton
+            android:id="@+id/medium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MEDIUM" />
+        <android.support.v7.widget.AppCompatRadioButton
+            android:id="@+id/low"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="LOW" />
+    </RadioGroup>
 
     <Button
         android:id="@+id/btn_add"

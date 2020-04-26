@@ -32,9 +32,11 @@
 3. 使用 `ViewPager` 和 `Fragment` 做一个简单版的好友列表界面
 
 ## 2020/4/13 作业四
-1. 绘制一个桌面时钟，在 Clock.java 类中完成 todo 部分
+绘制一个桌面时钟，在 Clock.java 类中完成 todo 部分
 
 ## 2020/4/20 作业五
-1. 使用 Retrofit 完成注册逻辑（todo 部分）
+使用 Retrofit 完成注册逻辑（todo 部分）
 
 ## 2020/4/27 作业六
+
+制作一个简单的 Todo List App

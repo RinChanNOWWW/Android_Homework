@@ -12,6 +12,7 @@ import android.widget.TextView;
 import com.byted.camp.todolist.NoteOperator;
 import com.byted.camp.todolist.R;
 import com.byted.camp.todolist.beans.Note;
+import com.byted.camp.todolist.beans.Priority;
 import com.byted.camp.todolist.beans.State;
 
 import java.text.SimpleDateFormat;
@@ -71,5 +72,6 @@ public class NoteViewHolder extends RecyclerView.ViewHolder {
             contentText.setTextColor(Color.BLACK);
             contentText.setPaintFlags(contentText.getPaintFlags() & ~Paint.STRIKE_THRU_TEXT_FLAG);
         }
+        itemView.setBackgroundColor(Priority.color(note.getPriority()));
     }
 }
