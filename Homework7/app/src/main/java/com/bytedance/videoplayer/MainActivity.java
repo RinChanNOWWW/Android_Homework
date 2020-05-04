@@ -1,5 +1,6 @@
 package com.bytedance.videoplayer;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
@@ -27,6 +28,7 @@ public class MainActivity extends AppCompatActivity {
         mediaController.setMediaPlayer(videoView);
     }
 
+    // 在这个时候保存进度
     @Override
     protected void onPause() {
         super.onPause();
@@ -43,6 +45,7 @@ public class MainActivity extends AppCompatActivity {
             videoView.start();
     }
 
+    // 此时 VideoView 已经清零
     @Override
     protected void onSaveInstanceState(@Nullable Bundle state) {
 
