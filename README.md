@@ -11,6 +11,7 @@
 | [2020/4/13 作业四](#2020413-作业四) | [源码](Homework4/) | [README](Homework4/README.md) | [apk](https://github.com/KagamineRinSuki/Android_Homework/releases/download/homework4_v1/Homework4.apk) |
 | [2020/4/20 作业五](#2020420-作业五) | [源码](Homework5/) | [README](Homework5/README.md) | [apk](https://github.com/KagamineRinSuki/Android_Homework/releases/download/homework5_v1/Homework5.apk)|
 | [2020/4/27 作业六](#2020427-作业六) | [源码](Homework6/) | [README](Homework6/README.md) | [apk](https://github.com/KagamineRinSuki/Android_Homework/releases/download/homework6_v1/Homework6.apk)|
+| [2020/5/4 作业七](#2020427-作业七) | [源码](Homework7/) | [README](Homework7/README.md) | [apk](https://github.com/KagamineRinSuki/Android_Homework/releases/download/homework7_v1/Homework7.apk)|
 
 ## 2020/3/16 作业一
 
@@ -32,11 +33,17 @@
 3. 使用 `ViewPager` 和 `Fragment` 做一个简单版的好友列表界面
 
 ## 2020/4/13 作业四
+
 绘制一个桌面时钟，在 Clock.java 类中完成 todo 部分
 
 ## 2020/4/20 作业五
+
 使用 Retrofit 完成注册逻辑（todo 部分）
 
 ## 2020/4/27 作业六
 
 制作一个简单的 Todo List App
+
+## 2020/4/27 作业七
+
+一个简单的视频播放器
